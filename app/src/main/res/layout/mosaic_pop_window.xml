@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="#121012"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/mosaic_pop"
+    android:layout_height="50dp">
+
+    <HorizontalScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Spinner
+                android:paddingRight="10dp"
+                android:spinnerMode="dialog"
+                android:id="@+id/sp_effect"
+                android:entries="@array/mosaic_effect"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <Spinner
+                android:paddingRight="10dp"
+                android:spinnerMode="dialog"
+                android:id="@+id/sp_mode"
+                android:entries="@array/mosaic_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:textColor="#ffffff"
+                android:text="模糊度:"
+                android:paddingRight="10dp"
+                android:id="@+id/fuzzy"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:textColor="#ffffff"
+                android:text="8"
+                android:paddingRight="10dp"
+                android:id="@+id/fuzzy_num"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:textColor="#ffffff"
+                android:text="手触大小:"
+                android:id="@+id/finger"
+                android:paddingRight="10dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:textColor="#ffffff"
+                android:text="20"
+                android:id="@+id/finger_num"
+                android:paddingRight="10dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:background="#e6655f"
+                android:id="@+id/color_select"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <ImageView
+        android:background="#857d79"
+        android:layout_width="1dp"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:background="@drawable/ic_action_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+</LinearLayout>

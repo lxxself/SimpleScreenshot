@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lxxself.jietu.activity.DealActivity">
+
+    <LinearLayout
+        android:id="@+id/imgLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+    </LinearLayout>
+    <com.lxxself.jietu.model.MosaicView
+        android:visibility="gone"
+        android:id="@+id/mosaicLayout"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+    </com.lxxself.jietu.model.MosaicView>
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:id="@+id/lyCut"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="裁剪"
+                android:id="@+id/tvCut"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_action_crop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lyEdit"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="涂鸦"
+                android:id="@+id/tvMosaic"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_action_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lyShare"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="分享"
+                android:id="@+id/tvShare"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_action_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">简截</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">关于</string>
+    <string name="title_activity_deal">处理</string>
+    <string name="title_activity_about">关于</string>
+    <string-array name="mosaic_effect">
+        <item>方格</item>
+        <item>模糊</item>
+        <item>画笔</item>
+    </string-array>
+    <string-array name="mosaic_mode">
+        <item>框选</item>
+        <item>手触</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lxxself.jietu" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:logo="@drawable/ic_action_share"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.FrontService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".activity.DealActivity"
+            android:label="@string/title_activity_deal"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.DealActivity" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.ShakeService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+            android:name=".service.FileListenerService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

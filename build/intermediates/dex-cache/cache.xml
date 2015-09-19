@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Date\SDK\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\pre-dexed\release\support-annotations-22.1.1-0c786d87b32f5f92c6f4e7df1978cf8c0a02bb20.jar" />
+    </item>
+    <item
+        jar="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\exploded-aar\com.github.QuadFlask\colorpicker\0.0.9\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="93aec1a27134f2d5fd94631996b3b3e1265df825">
+        <dex dex="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\pre-dexed\release\classes-8760dc4b8c6bec70d323080e13d19ed015d9a954.jar" />
+    </item>
+    <item
+        jar="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\pre-dexed\release\internal_impl-22.1.1-d2184ea4c5d52c49a22a127b9cc79e428985784d.jar" />
+    </item>
+    <item
+        jar="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\pre-dexed\release\classes-0df8596d3ff10a37a9a258a5e4d89c2083b65f3b.jar" />
+    </item>
+    <item
+        jar="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\exploded-aar\com.isseiaoki\simplecropview\1.0.7\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="46e2add8584f96bd5bfed5d6f7ff5b3090971933">
+        <dex dex="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\pre-dexed\release\classes-34b09db231569099f50e6e25051ef3b2e5fc4a62.jar" />
+    </item>
+    <item
+        jar="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\pre-dexed\release\classes-84bba2568191712c8afda678c9b342059ef7e384.jar" />
+    </item>
+    <item
+        jar="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="052802ed198178e7133de387fbc87d3f2998482a">
+        <dex dex="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\pre-dexed\release\classes-d2ae645700d0153aedec5c1cd59f3a0a76b7d0c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\Date\CodeSpace\AndroidStudioProjects\xiaoshiyan\Jietu\app\build\intermediates\pre-dexed\release\library-2.4.0-dd460f45d27a359687729c3c169358b1eda3100b.jar" />
+    </item>
+
+</items>
